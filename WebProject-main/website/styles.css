@@ -1,20 +1,10 @@
-@font-face {
-    font-family: 'YourFontName';
-    src: url('font.otf') format('opentype');
-}
-
-body {
-    font-family: 'YourFontName', Arial, sans-serif;
-}
-
-
-
 .navbar {
     background-color: #333;
     overflow: hidden;
     margin-top: 40px;
     margin-left: 50px;
     margin-right: 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar a {
@@ -24,6 +14,7 @@ body {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    font-family: 'Font';
 }
 
 .navbar a:hover {
@@ -36,8 +27,6 @@ body {
     color: white;
 }
 
-/* Inside your styles.css file */
-
 .content {
     display: flex;
     justify-content: center;
@@ -46,27 +35,19 @@ body {
     flex-direction: column;
 }
 
-/* Inside your styles.css file */
-
-/* Inside your styles.css file */
-
 .inputs {
     margin-top: 50px;
-    /* Move the textboxes downwards by 50 pixels */
     margin-left: 200px;
-    /* Move the textboxes to the right by 200 pixels */
+    font-family: 'Roboto', sans-serif;
 }
 
 .triangle-display {
     display: flex;
     justify-content: center;
-    /* Center the pictures horizontally */
     align-items: center;
-    /* Center the pictures vertically */
     flex: 1;
-    /* Take up remaining vertical space */
     margin-left: 500px;
-    /* Move the pictures to the right by 500 pixels (200 + 300) */
+    font-family: 'Roboto', sans-serif;
 }
 
 .triangle-image {
