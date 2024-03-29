@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'YourFontName';
+    src: url('font.otf') format('opentype');
+}
+
+body {
+    font-family: 'YourFontName', Arial, sans-serif;
+}
+
+
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #666;
+    color: white;
+}
+
+/* Inside your styles.css file */
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: calc(100vh - 40px);
+    flex-direction: column;
+}
+
+/* Inside your styles.css file */
+
+/* Inside your styles.css file */
+
+.inputs {
+    margin-top: 50px;
+    /* Move the textboxes downwards by 50 pixels */
+    margin-left: 200px;
+    /* Move the textboxes to the right by 200 pixels */
+}
+
+.triangle-display {
+    display: flex;
+    justify-content: center;
+    /* Center the pictures horizontally */
+    align-items: center;
+    /* Center the pictures vertically */
+    flex: 1;
+    /* Take up remaining vertical space */
+    margin-left: 500px;
+    /* Move the pictures to the right by 500 pixels (200 + 300) */
+}
+
+.triangle-image {
+    max-width: 40%;
+
+    max-height: 40%;
+}

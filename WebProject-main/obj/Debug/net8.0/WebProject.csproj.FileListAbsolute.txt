@@ -1,0 +1,14 @@
+C:\Users\user\Downloads\WebProject-main\bin\Debug\net8.0\WebProject.exe
+C:\Users\user\Downloads\WebProject-main\bin\Debug\net8.0\WebProject.deps.json
+C:\Users\user\Downloads\WebProject-main\bin\Debug\net8.0\WebProject.runtimeconfig.json
+C:\Users\user\Downloads\WebProject-main\bin\Debug\net8.0\WebProject.dll
+C:\Users\user\Downloads\WebProject-main\bin\Debug\net8.0\WebProject.pdb
+C:\Users\user\Downloads\WebProject-main\obj\Debug\net8.0\WebProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\WebProject-main\obj\Debug\net8.0\WebProject.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\WebProject-main\obj\Debug\net8.0\WebProject.AssemblyInfo.cs
+C:\Users\user\Downloads\WebProject-main\obj\Debug\net8.0\WebProject.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\WebProject-main\obj\Debug\net8.0\WebProject.dll
+C:\Users\user\Downloads\WebProject-main\obj\Debug\net8.0\refint\WebProject.dll
+C:\Users\user\Downloads\WebProject-main\obj\Debug\net8.0\WebProject.pdb
+C:\Users\user\Downloads\WebProject-main\obj\Debug\net8.0\WebProject.genruntimeconfig.cache
+C:\Users\user\Downloads\WebProject-main\obj\Debug\net8.0\ref\WebProject.dll

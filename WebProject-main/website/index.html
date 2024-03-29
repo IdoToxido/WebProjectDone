@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Display</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="icon.png" type="image/png">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="TriangleLore.html">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="content">
+        <div class="inputs">
+            <!-- Text inputs for triangle sides and angles -->
+            A <input type="text" id="side0" value="5"><br>
+            B <input type="text" id="side1"><br>
+            C <input type="text" id="side2" value="10"><br>
+            a <input type="text" id="angle0" value="90"><br>
+            b <input type="text" id="angle1"><br>
+            c <input type="text" id="angle2"><br>
+            <br>
+            <button onclick="sendMessage()">Submit Properties</button>
+            <br>
+            <br>
+            <!-- Radio buttons for triangle types -->
+            <input type="radio" name="triangleType" value="right" onclick="changeTriangleType(1)"> Right Angled
+            <input type="radio" name="triangleType" value="acute" onclick="changeTriangleType(2)"> Acute
+            <input type="radio" name="triangleType" value="obtuse" onclick="changeTriangleType(3)"> Obtuse
+
+
+        </div>
+
+        <div class="triangle-display">
+            <div id="triangleDisplay"></div>
+        </div>
+    </div>
+
+    <!-- Include the JavaScript file -->
+    <script src="javascript.js"></script>
+</body>
+
+</html>
